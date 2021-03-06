@@ -1,0 +1,21 @@
+.container {
+    margin-top: 10px;
+    border-radius: 10px;  
+    padding: 30px;
+    box-shadow: 2px 2px red;
+    background-color: white;
+}
+.card{
+    padding: 20px;
+    border-right-color: greenyellow;
+    border-left-color: yellow ;
+    border-top-color: yellow  ;
+    border-bottom-color: greenyellow;
+}
+p{
+    font-size: large;
+}
+h1{
+    font-size: xx-large;
+    font: bolder;
+}

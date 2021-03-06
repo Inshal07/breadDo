@@ -1,0 +1,23 @@
+<div class="container d-flex justify-content-center text-center">
+
+    <form ngDefaultControl class=" mt-5 text-center col-4">
+        <h3>Admin Login</h3>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label" > Email address</label>
+          <input 
+          type="email" 
+          [(ngModel)]="email" 
+          name="email" 
+          class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">        
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label" >Password</label>
+          <input 
+          type="password" 
+          [(ngModel)]="password" 
+          name="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        
+        <button type="submit" class="btn btn-outline-primary" (click)="loginUser()">Submit</button>
+      </form>
+</div>
