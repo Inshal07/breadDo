@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: "AIzaSyDxMN0IinXgBWenR_P4ho1zLeFFNSrqRHM",
-    authDomain: "breadgo-ac68d.firebaseapp.com",
-    projectId: "breadgo-ac68d",
-    storageBucket: "breadgo-ac68d.appspot.com",
-    messagingSenderId: "991215715274",
-    appId: "1:991215715274:web:cd401c4f42dbec2bd70533",
-    measurementId: "G-27J0ZC2FW8"
+    apiKey: "Add Your Keys",
+    authDomain: "Add Your Keys",
+    projectId: "Add Your Keys",
+    storageBucket: "Add Your Keys",
+    messagingSenderId: "Add Your Keys",
+    appId: "Add Your Keys3",
+    measurementId: "Add Your Keys"
   }
 };
 
